@@ -25,6 +25,7 @@ $(document).ready(function(){
     var numbers = parseInt($("input#number").val());
     if (isNaN(numbers) || numbers >= 4000 || numbers <= -4000) {
       alert("Please enter a positive integer less than 4000!");
+      location.reload();
     } else {
       var result = romanNumber(numbers);
       $(".result").text(result);

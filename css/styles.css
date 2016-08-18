@@ -1,7 +1,19 @@
 .result {
   margin-top: 4vh;
+  color: purple;
+  font-size: large;
 }
 
 .row{
   margin-top: 2vh;
+}
+
+body {
+background-image: url("https://wallpaperscraft.com/image/rome_italy_colosseum_light_night_hdr_10928_2560x1600.jpg");
+background-repeat: no-repeat;
+background-size: 130vh;
+}
+
+h1 {
+  color: gold;
 }
